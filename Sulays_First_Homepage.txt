@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #2C3E50;
+            font-size: 36px;
+        }
+        .bio {
+            font-size: 18px;
+            font-style: italic;
+            color: #8E44AD;
+        }
+        .logo {
+            width: 200px;
+            height: auto;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+        .footer a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            color: #3498DB;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to Sulaman's Page!</h1>
+    
+    <!-- Logo Section -->
+    <img src="https://cdn.vox-cdn.com/thumbor/bom982YHZA9mUuKDSY5CcdweGd8=/0x53:320x266/1400x1050/filters:focal(0x53:320x266):format(png)/cdn.vox-cdn.com/imported_assets/379572/320x320_sd_twitter_profile2.png" alt="Your Logo" class="logo">
+    
+    <!-- Introduction Text -->
+    <p>Hello, I am Sulaman. Welcome to my personal webpage, where you can learn a little about me and what I do!</p>
+    
+    <!-- Short Bio -->
+    <p class="bio">I am a student passionate about technology and exploring creative solutions through programming and design.</p>
+    
+    <!-- Copyright -->
+    <p>&copy; 2012 Sulaman D. Drammeh. All Rights Reserved.</p>
+
+    <!-- Footer with Hyperlinks -->
+    <div class="footer">
+        <a href="https://www.linkedin.com">LinkedIn</a>
+        <a href="https://github.com">GitHub</a>
+        <a href="https://www.w3schools.com">Learn HTML</a>
+    </div>
+
+    <!-- Optional Background Texture and Special Effects -->
+    <style>
+        body {
+            background-image: url('your-background-texture.jpg');
+            background-size: cover;
+        }
+    </style>
+    
+    <!-- Special Cursor Effects (Optional) -->
+    <script src="https://tympanus.net/codrops/2019/01/31/custom-cursor-effects/"></script>
+
+</body>
+</html>
